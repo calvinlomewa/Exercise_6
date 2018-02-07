@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 6 - Arrays</title>
+</head>
+
+<body>
+
+<div id="main">
+
+</div> 
+
+<script>
+    var planetNames = ["Jupiter", "Venus", "Saturn", "Mars", "Mercury", "Uranus", "Neptune"];
+    var distancesFromEarth = [5.2, 0.72, 9.5, 1.5, 0.39, 19.20, 30.05];
+    var sunnyInAugust = [false, true, false, true, false, false, false];
+
+    for(var i = 0; i < planetNames.length; i++)
+    {
+        document.getElementById("main").innerHTML += planetNames[i] + "<br />" + distancesFromEarth[i] + "<br />" + sunnyInAugust[i] +
+            "<br />" + "---------- <br />";
+    }
+</script>
+
+</body>
+</html>
